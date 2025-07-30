@@ -1,0 +1,662 @@
+{
+    "start": {
+        "title": "Prologue : L'Énigme des Espèces",
+        "year": "1831 - Plymouth, Angleterre",
+        "text": "Vous êtes Charles Darwin, jeune naturaliste passionné. Alors que la science est encore dominée par l'idée de la création divine et l'immutabilité des espèces, une offre inattendue se présente à vous : un voyage autour du monde à bord du HMS Beagle. Votre esprit scientifique bouillonne d'interrogations sur la diversité du vivant.",
+        "formula": "Quelle est l'origine de cette incroyable variété de formes de vie ?",
+        "choices": [
+            { "text": "A. Accepter l'offre et embarquer immédiatement pour le voyage du Beagle", "next": "beagle_departure" },
+            { "text": "B. Refuser, préférant vous consacrer à l'étude des fossiles en Angleterre", "next": "fossil_study_england" },
+            { "text": "C. Essayer de convaincre vos pairs de l'importance d'une classification systématique des espèces existantes", "next": "classification_focus" },
+            { "text": "D. Vous retirer pour méditer sur les théories existantes, comme celle de Lamarck", "next": "lamarck_reflection" }
+        ],
+        "progress": 10
+    },
+
+    "beagle_departure": {
+        "title": "Chapitre 1 : Le Voyage du Beagle",
+        "year": "1831-1836 - Autour du Monde",
+        "text": "À bord du HMS Beagle, vous explorez des terres inconnues : les îles du Cap-Vert, l'Amérique du Sud, les Galápagos, l'Australie. Chaque escale est une révélation. La géologie, les fossiles, et surtout la distribution géographique des espèces vous interpellent. Les pinsons des Galápagos, avec leurs becs si variés, sont une source d'étonnement particulière.",
+        "formula": "Observations : géologie, fossiles, variations géographiques",
+        "choices": [
+            { "text": "A. Collectionner et documenter méticuleusement chaque spécimen rencontré", "next": "meticulous_collection" },
+            { "text": "B. Se concentrer sur l'étude des formations géologiques et des tremblements de terre", "next": "geological_focus" },
+            { "text": "C. Tenter de réconcilier vos observations avec les idées créationnistes du moment", "next": "creationist_reconciliation" },
+            { "text": "D. S'interroger sur les raisons des similitudes et différences entre espèces proches mais isolées", "next": "species_variation_inquiry" }
+        ],
+        "progress": 20
+    },
+
+    "fossil_study_england": {
+        "title": "Voie Alternative : L'Erudit Sédentaire",
+        "year": "1831-1840 - Londres, Angleterre",
+        "text": "Vous restez en Angleterre, plongeant dans l'étude des collections de fossiles. Vous contribuez à la paléontologie et comprenez l'extinction des espèces. Cependant, sans les observations de terrain du Beagle, la vision globale de l'évolution vous échappe. Votre impact sur la théorie de l'évolution est limité. Votre nom est respecté, mais vous n'êtes pas 'Darwin'.",
+        "ending": "failure",
+        "progress": 25
+    },
+
+    "classification_focus": {
+        "title": "Voie Alternative : Le Grand Classificateur",
+        "year": "1831-1845 - Londres, Angleterre",
+        "text": "Vous devenez un maître de la taxonomie, perfectionnant les systèmes de classification. Votre travail est fondamental pour organiser la diversité du vivant, mais l'absence d'une théorie explicative pour cette diversité vous frustre. Vous passez à côté de l'opportunité de formuler une hypothèse sur l'origine des espèces elle-même.",
+        "ending": "failure",
+        "progress": 25
+    },
+
+    "lamarck_reflection": {
+        "title": "Voie Alternative : Le Rêve Lamarckien",
+        "year": "1831-1835 - Cambridge, Angleterre",
+        "text": "Vous vous plongez dans les écrits de Jean-Baptiste Lamarck, séduit par l'idée de l'héritabilité des caractères acquis. Vous tentez de construire votre propre théorie sur cette base. Mais les observations contradictoires s'accumulent, et le mécanisme de Lamarck ne tient pas. Vous stagnez, incapable de proposer une alternative crédible.",
+        "ending": "failure",
+        "progress": 20
+    },
+
+    "meticulous_collection": {
+        "title": "Chapitre 2 : Les Données Brutes",
+        "year": "1836-1842 - Londres, Angleterre",
+        "text": "De retour en Angleterre, vous passez des années à trier, classifier et faire examiner vos milliers de spécimens par des experts. Les variations entre les espèces, même au sein d'une même île, sont stupéfiantes. Le 'problème des espèces' hante vos pensées. Vous commencez à soupçonner que les espèces ne sont pas fixes.",
+        "formula": "Accumulation de preuves de la variation",
+        "choices": [
+            { "text": "A. Étudier l'élevage des animaux domestiques pour comprendre la variation sous sélection humaine", "next": "domestic_selection" },
+            { "text": "B. Se consacrer à l'étude des cirripèdes pour explorer la variation au sein d'un groupe spécifique", "next": "cirripede_study" },
+            { "C. Lire des traités de géologie, notamment de Lyell, sur les changements lents et graduels", "next": "lyell_geology" },
+            { "D. Vous intéresser aux travaux sur les populations humaines et la lutte pour la vie", "next": "malthus_influence" }
+        ],
+        "progress": 30
+    },
+
+    "geological_focus": {
+        "title": "Voie Alternative : Le Géologue Avant Tout",
+        "year": "1836-1845 - Londres, Angleterre",
+        "text": "Vos observations géologiques sont révolutionnaires. Vous publiez des ouvrages majeurs sur les récifs coralliens et la géologie de l'Amérique du Sud. Cependant, en vous concentrant trop sur la Terre, vous manquez la connexion essentielle entre la géologie et la biologie de l'évolution des espèces. Votre contribution est reconnue, mais la grande théorie vous échappe.",
+        "ending": "failure",
+        "progress": 35
+    },
+
+    "creationist_reconciliation": {
+        "title": "Voie Alternative : La Foi Vacillante",
+        "year": "1836-1840 - Downe, Angleterre",
+        "text": "Vous tentez désespérément de concilier vos découvertes avec votre foi. Chaque nouvelle observation est un déchirement. Finalement, vous êtes contraint d'ignorer certaines preuves flagrantes, affaiblissant ainsi votre capacité à formuler une théorie cohérente et audacieuse. La pression sociale et religieuse vous pousse à l'inaction scientifique.",
+        "ending": "failure",
+        "progress": 30
+    },
+
+    "species_variation_inquiry": {
+        "title": "Chapitre 2 : Les Questions Cruciales",
+        "year": "1836-1842 - Londres, Angleterre",
+        "text": "Vous êtes obsédé par les questions : pourquoi ces variations ? Comment apparaissent-elles ? Pourquoi certaines espèces survivent-elles mieux que d'autres ? Vous sentez qu'une loi naturelle doit régir cette dynamique, mais elle reste insaisissable. Vous commencez à esquisser des idées de transformation.",
+        "formula": "Comment les espèces se transforment-elles ?",
+        "choices": [
+            { "text": "A. Examiner les variations au sein des populations naturelles, notamment les espèces 'jumelles'", "next": "natural_variation_study" },
+            { "text": "B. Étudier l'anatomie comparée pour trouver des liens entre espèces différentes", "next": "comparative_anatomy" },
+            { "C. Chercher des indices de sélection dans la nature, par exemple chez les animaux de compagnie", "next": "domestic_selection" },
+            { "D. Lire les ouvrages économiques et sociologiques sur la croissance des populations", "next": "malthus_influence" }
+        ],
+        "progress": 30
+    },
+
+    "domestic_selection": {
+        "title": "Chapitre 3 : La Sélection Artificielle",
+        "year": "1842-1858 - Downe, Angleterre",
+        "text": "Vous vous immergez dans l'étude des éleveurs et des horticulteurs. La manière dont ils sélectionnent des traits spécifiques chez les pigeons, les chiens ou les plantes est une révélation. Vous réalisez que la 'sélection' existe et peut créer des variétés nouvelles. Mais qui ou quoi sélectionne dans la nature ?",
+        "formula": "Sélection humaine ⇒ modification des espèces",
+        "choices": [
+            { "text": "A. Appliquer le principe de Malthus sur la pression démographique à toutes les espèces", "next": "malthus_principle" },
+            { "text": "B. Chercher des preuves de lutte pour la survie et de compétition dans la nature", "next": "struggle_for_existence" },
+            { "C. Développer une théorie de l'hérédité pour expliquer la transmission des traits", "next": "heredity_theory_attempt" },
+            { "D. Commencer à rédiger un long manuscrit sur vos idées, 'Natural Selection'", "next": "long_manuscript_draft" }
+        ],
+        "progress": 40
+    },
+
+    "cirripede_study": {
+        "title": "Voie Alternative : L'Obsession du Bernacle",
+        "year": "1842-1854 - Downe, Angleterre",
+        "text": "Vous passez huit années à une étude exhaustive et détaillée des bernacles (cirripèdes). Votre travail est magistral et fait autorité, mais cette focalisation intense vous éloigne de la formulation générale de votre théorie. La micro-étude vous empêche de voir la macro-image. Vous avez gagné une réputation de spécialiste, pas de théoricien révolutionnaire.",
+        "ending": "failure",
+        "progress": 45
+    },
+
+    "lyell_geology": {
+        "title": "Recroisement : L'Influence de Lyell",
+        "year": "1842 - Downe, Angleterre",
+        "text": "Les 'Principes de Géologie' de Charles Lyell confirment votre intuition : la Terre change lentement mais continuellement. Si la Terre change, pourquoi le vivant ne changerait-il pas de la même manière, graduellement, sur de longues périodes ? Cette idée d'un changement continu est fondamentale.",
+        "formula": "Changement lent et continu sur de vastes échelles de temps",
+        "choices": [
+            { "text": "A. Chercher des mécanismes biologiques pour un changement graduel", "next": "malthus_influence" },
+            { "text": "B. Intégrer cette temporalité immense à votre concept de variation", "next": "natural_selection_genesis" },
+            { "text": "C. Développer une chronologie géologique précise", "next": "geological_chronology" },
+            { "D. Publier un livre sur l'uniformitarisme en biologie", "next": "uniformitarianism_biology" }
+        ],
+        "progress": 35
+    },
+
+    "malthus_influence": {
+        "title": "Chapitre 3 : La Pression de la Population",
+        "year": "1838 - Londres, Angleterre",
+        "text": "En lisant l'Essai sur le principe de population de Thomas Malthus, une idée fulgurante vous frappe : les populations (humaines, animales, végétales) tendent à croître de manière exponentielle, mais les ressources sont limitées. Il en résulte inévitablement une 'lutte pour l'existence'.",
+        "formula": "Croissance pop. > Ressources ⇒ Lutte pour l'existence",
+        "choices": [
+            { "text": "A. Combiner cette idée avec la sélection artificielle pour postuler la sélection naturelle", "next": "natural_selection_genesis" },
+            { "text": "B. Se concentrer sur les implications sociales de Malthus plutôt que biologiques", "next": "social_malthusianism" },
+            { "C. Chercher des exceptions à la lutte pour l'existence dans la nature", "next": "no_struggle_exceptions" },
+            { "D. Vous inquiéter des implications morales d'une telle 'lutte'", "next": "moral_dilemma" }
+        ],
+        "progress": 40
+    },
+
+    "natural_variation_study": {
+        "title": "Chapitre 3 : La Variation Inhérente",
+        "year": "1842-1858 - Downe, Angleterre",
+        "text": "Vous observez la nature sans relâche : les différences subtiles au sein d'une même espèce, l'importance de l'isolement géographique, la convergence de traits dans des environnements similaires. Vous êtes convaincu que la variation est omniprésente et le moteur du changement. Mais quel est le mécanisme qui opère cette sélection ?",
+        "formula": "La variation est la matière première du changement",
+        "choices": [
+            { "text": "A. Combiner vos observations avec l'idée de la 'lutte pour l'existence' de Malthus", "next": "malthus_principle" },
+            { "text": "B. Étudier les mécanismes d'hérédité pour comprendre comment les traits sont transmis", "next": "heredity_theory_attempt" },
+            { "C. Chercher des exemples de 'transmutation' directe d'une espèce à l'autre", "next": "direct_transmutation_search" },
+            { "D. Commencer à écrire vos idées, même sans un mécanisme complet", "next": "long_manuscript_draft" }
+        ],
+        "progress": 40
+    },
+
+    "comparative_anatomy": {
+        "title": "Voie Alternative : L'Anatomiste Comparé",
+        "year": "1836-1845 - Londres, Angleterre",
+        "text": "Vous devenez un expert en anatomie comparée, révélant les homologies entre des espèces apparemment différentes. Votre travail aide à construire les arbres phylogénétiques. Cependant, vous manquez le mécanisme qui explique *comment* ces formes ont évolué les unes des autres. Votre contribution est significative, mais la pièce maîtresse manque.",
+        "ending": "failure",
+        "progress": 38
+    },
+
+    "malthus_principle": {
+        "title": "Chapitre 4 : La Sélection Naturelle",
+        "year": "1838 - Downe, Angleterre",
+        "text": "Le flash de génie ! Si les populations croissent plus vite que les ressources, il y a une lutte pour l'existence. Et si les individus présentant des variations 'favorables' dans cette lutte survivent et se reproduisent plus que les autres ? Alors, ces variations s'accumuleront au fil des générations ! C'est la 'Sélection Naturelle'.",
+        "formula": "Lutte pour l'existence + Variation héréditaire ⇒ Sélection Naturelle",
+        "choices": [
+            { "text": "A. Garder l'idée secrète et la développer pendant des années", "next": "secret_development" },
+            { "text": "B. Publier immédiatement une courte esquisse de la théorie", "next": "early_publication" },
+            { "text": "C. Chercher d'autres preuves pour renforcer la théorie avant toute annonce", "next": "proof_gathering" },
+            { "D. Collaborer avec d'autres scientifiques partageant des idées similaires", "next": "wallace_correspondence" }
+        ],
+        "progress": 50
+    },
+
+    "struggle_for_existence": {
+        "title": "Chapitre 4 : Preuves de la Lutte",
+        "year": "1838-1858 - Downe, Angleterre",
+        "text": "Vous collectez des exemples innombrables de compétition pour les ressources, de prédation, de maladies, et de survie des plus adaptés dans la nature. Chaque observation renforce l'idée d'une lutte constante. Combiné à la variation, cela doit mener à la sélection naturelle.",
+        "formula": "Nature = champ de bataille ⇒ les plus aptes survivent",
+        "choices": [
+            { "text": "A. Développer la théorie de la sélection naturelle et ses mécanismes", "next": "natural_selection_genesis" },
+            { "text": "B. Se concentrer sur la 'sélection sexuelle' comme cas particulier", "next": "sexual_selection_focus" },
+            { "C. Chercher des preuves de 'perfect adaptation' pour contredire votre idée", "next": "perfect_adaptation_search" },
+            { "D. Commencer à rédiger un ouvrage détaillé sur l'origine des espèces", "next": "long_manuscript_draft" }
+        ],
+        "progress": 48
+    },
+
+    "heredity_theory_attempt": {
+        "title": "Voie Alternative : L'Impasse de l'Hérédité",
+        "year": "1840-1860 - Downe, Angleterre",
+        "text": "Vous réalisez qu'une théorie de l'hérédité est cruciale. Vous développez la 'pangénèse', une hypothèse où des 'gemmules' voyagent des cellules aux gamètes. C'est ingénieux mais incorrect. L'absence d'une compréhension juste de l'hérédité (que Mendel découvrira bien plus tard) freine la solidité de votre théorie de la sélection naturelle. Votre travail reste incomplet.",
+        "ending": "failure",
+        "progress": 45
+    },
+
+    "long_manuscript_draft": {
+        "title": "Chapitre 4 : Le Manuscrit Caché",
+        "year": "1842-1858 - Downe, Angleterre",
+        "text": "Vous commencez à rédiger un manuscrit massif détaillant votre théorie de la sélection naturelle. Vous accumulez les preuves, peaufinez les arguments, et anticipez les objections. C'est un travail colossal. Mais le risque de voir quelqu'un d'autre publier une idée similaire vous hante.",
+        "formula": "Preuves accumulées, arguments affinés",
+        "choices": [
+            { "text": "A. Continuer à développer le manuscrit en secret, le rendre parfait", "next": "secret_development" },
+            { "text": "B. Vous sentir poussé à publier une version abrégée en urgence", "next": "urgent_publication" },
+            { "text": "C. Demander l'avis d'amis proches et de collègues", "next": "peer_review_request" },
+            { "D. Attendre le moment opportun, quitte à être devancé", "next": "wait_and_see" }
+        ],
+        "progress": 55
+    },
+
+    "geological_chronology": {
+        "title": "Voie Alternative : Le Temps Géologique",
+        "year": "1845-1865 - Londres, Angleterre",
+        "text": "Vous devenez un expert de la chronologie géologique, estimant l'âge de la Terre avec plus de précision. Ce travail est crucial pour l'évolution, mais en vous focalisant sur les échelles de temps, vous ne développez pas suffisamment le mécanisme biologique. Votre contribution est appréciée par les géologues, mais les biologistes attendent toujours la grande explication.",
+        "ending": "failure",
+        "progress": 40
+    },
+
+    "uniformitarianism_biology": {
+        "title": "Voie Alternative : L'Uniformitarisme Biologique",
+        "year": "1845-1860 - Downe, Angleterre",
+        "text": "Vous publiez un ouvrage sur l'idée que les processus biologiques du passé sont les mêmes qu'aujourd'hui, similaire à l'uniformitarisme géologique de Lyell. Bien que cette idée soit correcte, elle n'explique pas le mécanisme de changement des espèces. Votre livre est bien accueilli, mais ne déclenche pas de révolution.",
+        "ending": "failure",
+        "progress": 40
+    },
+
+    "social_malthusianism": {
+        "title": "Voie Alternative : L'Eugéniste Précoce",
+        "year": "1840-1860 - Downe, Angleterre",
+        "text": "Vous vous focalisez sur les implications sociales de Malthus, dérivant vers des idées d'amélioration de la race humaine par la sélection. Vos écrits, bien que motivés par la science de l'époque, débouchent sur des concepts d'eugénisme qui seront plus tard dévoyés. Votre impact scientifique est terni par des erreurs éthiques.",
+        "ending": "failure",
+        "progress": 45
+    },
+
+    "no_struggle_exceptions": {
+        "title": "Voie Alternative : La Nature Harmonieuse",
+        "year": "1840-1860 - Downe, Angleterre",
+        "text": "Vous vous efforcez de trouver des exemples de coopération et d'harmonie dans la nature, cherchant à nuancer l'idée de 'lutte'. Bien que la coopération existe, en minimisant la compétition, vous affaiblissez l'un des piliers de la sélection naturelle. Votre vision est plus 'optimiste' mais moins explicative.",
+        "ending": "failure",
+        "progress": 45
+    },
+
+    "moral_dilemma": {
+        "title": "Voie Alternative : Le Scrupule Moral",
+        "year": "1840-1860 - Downe, Angleterre",
+        "text": "Les implications d'une 'lutte pour l'existence' et de la survie des plus aptes vous troublent profondément. Vous passez des années à réfléchir aux questions morales et religieuses, freiné par vos convictions. Cette hésitation éthique vous empêche de formuler votre théorie avec la force nécessaire, et d'autres avancent. Votre conscience est sauve, mais pas votre place dans l'histoire de la science.",
+        "ending": "failure",
+        "progress": 45
+    },
+
+    "natural_selection_genesis": {
+        "title": "Chapitre 4 : La Naissance d'une Idée",
+        "year": "1838 - Downe, Angleterre",
+        "text": "Vous avez formulé le principe de la 'Sélection Naturelle' ! C'est le mécanisme manquant pour expliquer l'origine et la diversification des espèces. Vous êtes à l'aube d'une révolution scientifique. Mais comment présenter une idée aussi radicale à un monde encore dominé par la vision fixiste ?",
+        "formula": "L'évolution par Sélection Naturelle : une révolution",
+        "choices": [
+            { "text": "A. Commencer à accumuler des preuves massives et détaillées avant de publier quoi que ce soit", "next": "secret_development" },
+            { "text": "B. Écrire une courte esquisse pour établir la priorité", "next": "early_publication" },
+            { "text": "C. En discuter discrètement avec vos plus proches confidents", "next": "peer_review_request" },
+            { "D. Vous attendre à être critiqué et préparer des contre-arguments", "next": "proof_gathering" }
+        ],
+        "progress": 50
+    },
+
+    "sexual_selection_focus": {
+        "title": "Voie Alternative : La Sélection Sexuelle Unique",
+        "year": "1850-1860 - Downe, Angleterre",
+        "text": "Vous vous focalisez presque exclusivement sur la sélection sexuelle, le rôle des parades nuptiales et des ornements pour la reproduction. Bien que correcte et importante, cette spécialisation vous empêche de développer pleinement le mécanisme général de la sélection naturelle pour l'adaptation à l'environnement. Votre œuvre sur ce sujet est pionnière, mais le grand tableau de l'évolution reste inachevé.",
+        "ending": "failure",
+        "progress": 55
+    },
+
+    "perfect_adaptation_search": {
+        "title": "Voie Alternative : La Perfection Statique",
+        "year": "1850-1860 - Downe, Angleterre",
+        "text": "Vous cherchez à comprendre comment les espèces atteignent une adaptation 'parfaite' à leur environnement. Paradoxalement, cette quête vous éloigne du concept de changement continu. Vous trouvez des exemples de spécialisation incroyable, mais vous peinez à expliquer comment ces adaptations sont apparues par des processus graduels. Votre vision devient trop statique.",
+        "ending": "failure",
+        "progress": 55
+    },
+
+    "direct_transmutation_search": {
+        "title": "Voie Alternative : La Transmutation Directe",
+        "year": "1850-1860 - Downe, Angleterre",
+        "text": "Vous cherchez des preuves de 'sauts' évolutifs majeurs, des transmutations soudaines d'une espèce à une autre, comme l'ont imaginé certains pré-évolutionnistes. Vous ne trouvez rien de concluant. Cette erreur de direction vous fait perdre un temps précieux et vous empêche de saisir la puissance des petits changements graduels de la sélection naturelle.",
+        "ending": "failure",
+        "progress": 50
+    },
+
+    "secret_development": {
+        "title": "Chapitre 5 : Le Long Silence",
+        "year": "1842-1858 - Downe, Angleterre",
+        "text": "Vous travaillez sans relâche, accumulant des preuves, affinant vos arguments. Votre manuscrit devient un livre colossal. Mais vous hésitez à publier, craignant la controverse et voulant rendre votre œuvre irréfutable. Ce long silence est risqué.",
+        "formula": "Perfectionnisme et prudence, mais risque d'être devancé",
+        "choices": [
+            { "text": "A. Un courrier d'Alfred Russel Wallace vous parvient, proposant une idée similaire !", "next": "wallace_letter" },
+            { "text": "B. Un ami proche vous exhorte à publier avant qu'il ne soit trop tard", "next": "lyell_hooker_intervention" },
+            { "C. Vous décidez de publier une version très courte de votre théorie pour tester les réactions", "next": "early_publication" },
+            { "D. Vous continuez à peaufiner, convaincu que la perfection est la clé", "next": "over_perfection_failure" }
+        ],
+        "progress": 60
+    },
+
+    "early_publication": {
+        "title": "Voie Alternative : La Publication Précoce",
+        "year": "1844 - Londres, Angleterre",
+        "text": "Vous publiez une 'esquisse' de votre théorie, sans les preuves détaillées. Le document est intrigant mais manque de la force argumentative nécessaire pour convaincre. Il est en grande partie ignoré ou mal compris. La révolution que vous espériez ne se produit pas. Votre idée, non étayée, est jugée spéculative.",
+        "ending": "failure",
+        "progress": 55
+    },
+
+    "proof_gathering": {
+        "title": "Chapitre 5 : La Quête de Preuves",
+        "year": "1838-1858 - Downe, Angleterre",
+        "text": "Vous consacrez des années à collecter un nombre écrasant de preuves : variations domestiques et sauvages, répartition géographique des espèces, embryologie comparée, organes rudimentaires, registres fossiles. Chaque élément renforce votre conviction. Mais le temps presse.",
+        "formula": "Preuves écrasantes pour une théorie révolutionnaire",
+        "choices": [
+            { "text": "A. Vous recevez un manuscrit d'Alfred Russel Wallace, décrivant la même idée !", "next": "wallace_letter" },
+            { "text": "B. Vos amis Lyell et Hooker vous pressent de publier au plus vite", "next": "lyell_hooker_intervention" },
+            { "C. Vous êtes prêt à publier votre grand ouvrage, 'L'Origine des Espèces'", "next": "origin_publication_ready" },
+            { "D. Vous décidez d'attendre encore quelques années pour consolider les dernières sections", "next": "wait_and_see" }
+        ],
+        "progress": 65
+    },
+
+    "wallace_correspondence": {
+        "title": "Recroisement : La Lettre de Wallace",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Alors que vous travaillez sur votre grand ouvrage, une lettre arrive de Malaisie. Elle contient un essai d'Alfred Russel Wallace qui décrit, en substance, le même concept de sélection naturelle ! Vous êtes stupéfait : votre 'secret' est découvert par un autre.",
+        "formula": "Wallace, la co-découverte",
+        "choices": [
+            { "text": "A. Publier immédiatement l'essai de Wallace et le vôtre en même temps", "next": "linnean_society" },
+            { "text": "B. Essayer de publier le vôtre avant lui pour établir la priorité", "next": "hasty_publication_failure" },
+            { "C. Ignorer la lettre et continuer votre travail tranquillement", "next": "ignoring_wallace" },
+            { "D. Entrer en contact avec Wallace pour discuter de cette incroyable coïncidence", "next": "wallace_collaboration_attempt" }
+        ],
+        "progress": 70
+    },
+
+    "peer_review_request": {
+        "title": "Recroisement : Le Cercle des Amis",
+        "year": "1856 - Downe, Angleterre",
+        "text": "Vous partagez votre 'esquisse' avec vos amis Charles Lyell et Joseph Hooker. Ils sont impressionnés par la puissance de votre idée et vous encouragent vivement à la développer et à la publier. Leur soutien est crucial. Mais ils vous préviennent aussi des dangers d'une publication trop lente.",
+        "formula": "Soutien et encouragement des pairs",
+        "choices": [
+            { "text": "A. Accélérer la rédaction de votre grand ouvrage", "next": "proof_gathering" },
+            { "text": "B. Attendre le moment parfait pour la publication", "next": "wait_and_see" },
+            { "C. Vous recevez une lettre d'Alfred Russel Wallace avec la même idée !", "next": "wallace_letter" },
+            { "D. Continuer à développer le manuscrit en secret", "next": "secret_development" }
+        ],
+        "progress": 60
+    },
+
+    "over_perfection_failure": {
+        "title": "Impasse : Le Piège du Perfectionnisme",
+        "year": "1859 - Downe, Angleterre",
+        "text": "Vous peaufinez chaque phrase, chaque argument, chaque preuve. Votre manuscrit est une œuvre d'art scientifique. Mais alors que vous êtes sur le point de le publier, le monde scientifique est secoué par une publication d'Alfred Russel Wallace et d'autres sur la sélection naturelle. Vous êtes devancé, votre nom est éclipsé. La leçon : parfois, le 'bon' est l'ennemi du 'parfait' quand la découverte est dans l'air.",
+        "ending": "failure",
+        "progress": 70
+    },
+
+    "lyell_hooker_intervention": {
+        "title": "Chapitre 6 : L'Urgence de la Publication",
+        "year": "1858 - Londres, Angleterre",
+        "text": "Vos amis, Charles Lyell et Joseph Hooker, reçoivent la lettre de Wallace et se précipitent à votre domicile. Ils vous proposent une solution équitable : présenter en même temps l'essai de Wallace et une courte version de votre propre théorie à la Linnean Society. C'est votre chance de partager la gloire.",
+        "formula": "Présentation conjointe : Wallace et Darwin",
+        "choices": [
+            { "text": "A. Accepter la proposition et préparer la présentation", "next": "linnean_society" },
+            { "text": "B. Refuser, insister pour publier votre grand ouvrage seul", "next": "insist_on_solo_publication" },
+            { "text": "C. Tenter de convaincre Wallace de retarder sa publication", "next": "convince_wallace_delay" },
+            { "text": "D. Hésiter et rater le coche", "next": "hesitation_failure" }
+        ],
+        "progress": 75
+    },
+
+    "wallace_letter": {
+        "title": "Chapitre 6 : Le Choc de la Coïncidence",
+        "year": "1858 - Downe, Angleterre",
+        "text": "C'est une claque. Alfred Russel Wallace a trouvé la même idée que vous, indépendamment ! Vous êtes face à un dilemme éthique et scientifique. La priorité est en jeu, mais aussi l'intégrité de la science.",
+        "formula": "Double découverte : rivalité ou collaboration ?",
+        "choices": [
+            { "text": "A. Contacter Lyell et Hooker pour leur demander conseil", "next": "lyell_hooker_intervention" },
+            { "text": "B. Publier votre propre travail immédiatement pour la priorité", "next": "hasty_publication_failure" },
+            { "text": "C. Proposer une collaboration formelle à Wallace", "next": "wallace_collaboration_attempt" },
+            { "D. Vous retirez de la scène, laissant Wallace publier seul", "next": "abdication_failure" }
+        ],
+        "progress": 70
+    },
+
+    "hasty_publication_failure": {
+        "title": "Impasse : La Publication Précipitée",
+        "year": "1858 - Londres, Angleterre",
+        "text": "Paniqué par la lettre de Wallace, vous précipitez la publication d'une version inachevée de votre théorie. Elle est jugée hâtive, manque de preuves solides, et ne convainc pas. Vous perdez la confiance de vos pairs et votre opportunité de marquer l'histoire. Le public reste sceptique.",
+        "ending": "failure",
+        "progress": 75
+    },
+
+    "ignoring_wallace": {
+        "title": "Impasse : L'Arrogance Silencieuse",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Vous ignorez la lettre de Wallace, persuadé que votre travail est bien plus complet et que sa contribution sera négligeable. Mais la nouvelle de Wallace circule. Quand votre grand ouvrage paraît enfin, il est reçu avec scepticisme, certains vous accusant d'avoir plagié ou du moins de ne pas avoir reconnu la contribution de Wallace. Votre gloire est ternie.",
+        "ending": "failure",
+        "progress": 78
+    },
+
+    "wallace_collaboration_attempt": {
+        "title": "Voie Alternative : La Collaboration Impossible",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Vous contactez Wallace, proposant une collaboration formelle. Wallace, de son côté, est honoré mais très éloigné en Malaisie. La communication est lente et difficile. Les opportunités sont manquées et d'autres discussions scientifiques sur l'évolution commencent à émerger avant que vous ne puissiez vous coordonner pleinement.",
+        "ending": "failure",
+        "progress": 75
+    },
+
+    "wait_and_see": {
+        "title": "Impasse : L'Attente Fatale",
+        "year": "1859 - Downe, Angleterre",
+        "text": "Vous décidez d'attendre encore, pour que chaque mot soit parfait, chaque argument irréfutable. Mais le monde ne vous attend pas. D'autres chercheurs, inspirés par des idées similaires, publient des travaux sur l'évolution. Quand vous présentez enfin votre théorie, l'impact est moindre ; l'étincelle de la nouveauté s'est dissipée. Vous n'êtes qu'un parmi d'autres.",
+        "ending": "failure",
+        "progress": 68
+    },
+
+    "linnean_society": {
+        "title": "Chapitre 7 : La Présentation Historique",
+        "year": "1858 - Londres, Angleterre",
+        "text": "Le 1er juillet 1858, devant la Linnean Society, les écrits de Wallace et les vôtres sont lus. L'auditoire est perplexe, mais l'idée est lancée. Cette co-publication est un coup de maître de Lyell et Hooker, assurant votre priorité sans occulter celle de Wallace. Le monde est désormais conscient de l'idée de la sélection naturelle.",
+        "formula": "Une idée partagée pour une révolution scientifique",
+        "choices": [
+            { "text": "A. Publier immédiatement 'L'Origine des Espèces' dans une version abrégée mais complète", "next": "origin_publication_ready" },
+            { "text": "B. Continuer à développer votre grand ouvrage, malgré la co-publication", "next": "secret_development_continued" },
+            { "text": "C. Attendre les réactions de la communauté scientifique avant d'aller plus loin", "next": "wait_for_reactions" },
+            { "D. Collaborer plus étroitement avec Wallace", "next": "collaborate_wallace_linnean" }
+        ],
+        "progress": 80
+    },
+
+    "insist_on_solo_publication": {
+        "title": "Impasse : L'Orgueil du Savant",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Vous refusez la proposition de Lyell et Hooker, persuadé que votre travail seul mérite la lumière. Cette attitude est perçue comme arrogante. Lorsque Wallace publie son essai seul, le blâme vous tombe dessus pour votre manque de collaboration. Votre génie est entaché par cette faute de jugement éthique et relationnel. L'histoire vous retient comme un brillant individualiste, pas comme le père de l'évolution.",
+        "ending": "failure",
+        "progress": 80
+    },
+
+    "convince_wallace_delay": {
+        "title": "Impasse : Le Mensonge Indirect",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Vous tentez de persuader Wallace de retarder sa publication sous un faux prétexte. Wallace, isolé, accepte de bonne foi. Vous publiez seul. La supercherie est découverte des années plus tard. Votre réputation est détruite. La vérité éclate toujours en science, et la tromperie ne paie pas. Votre nom est discrédité à jamais.",
+        "ending": "failure",
+        "progress": 80
+    },
+
+    "hesitation_failure": {
+        "title": "Impasse : Le Moment Manqué",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Vous hésitez trop longtemps face à la proposition de Lyell et Hooker. Le moment idéal passe. Wallace décide de publier son essai seul. Votre opportunité de partager la scène et d'établir votre priorité est perdue. Vous regretterez amèrement ce manque de décision.",
+        "ending": "failure",
+        "progress": 78
+    },
+
+    "abdication_failure": {
+        "title": "Impasse : L'Abandon du Génie",
+        "year": "1858 - Downe, Angleterre",
+        "text": "Dépassé par le choc de la coïncidence avec Wallace, vous vous retirez, le laissant publier seul. Vous vous consacrez à des recherches plus 'sûres'. Wallace devient le seul père de la théorie de la sélection naturelle. Votre nom reste celui d'un grand naturaliste, mais l'histoire ne vous attribue pas la révolution. Votre héritage est incomplet.",
+        "ending": "failure",
+        "progress": 75
+    },
+
+    "origin_publication_ready": {
+        "title": "Chapitre 8 : L'Origine des Espèces",
+        "year": "1859 - Londres, Angleterre",
+        "text": "Le 24 novembre 1859, 'L'Origine des Espèces par les moyens de la Sélection Naturelle, ou la Préservation des Races Favorisées dans la Lutte pour la Vie' est publié. La première édition se vend en une journée. Le livre est une bombe, un manifeste scientifique, une collection d'observations et d'arguments qui changent à jamais la compréhension du vivant. La controverse est immédiate et intense.",
+        "formula": "Un livre qui change le monde",
+        "choices": [
+            { "text": "A. Défendre votre théorie avec fermeté face aux critiques scientifiques et religieuses", "next": "defense_of_theory" },
+            { "text": "B. Laisser vos 'bulldogs' comme Huxley et Hooker mener le combat public", "next": "huxley_hooker_defense" },
+            { "C. Vous retirer du débat public pour continuer vos recherches", "next": "retreat_to_research" },
+            { "D. Publier des éditions révisées pour répondre aux objections", "next": "revised_editions" }
+        ],
+        "progress": 90
+    },
+
+    "secret_development_continued": {
+        "title": "Impasse : Le Doute Persistant",
+        "year": "1859-1865 - Downe, Angleterre",
+        "text": "Malgré la présentation à la Linnean Society, vous continuez à douter de la complétude de votre manuscrit. Vous tardez à publier la version intégrale. D'autres interprétations de l'évolution (certaines erronées) gagnent du terrain en votre absence. Le grand ouvrage ne voit le jour que tardivement, et son impact est dilué. La révolution est là, mais votre rôle est moins central.",
+        "ending": "failure",
+        "progress": 85
+    },
+
+    "wait_for_reactions": {
+        "title": "Impasse : Le Temps Manqué",
+        "year": "1859-1860 - Downe, Angleterre",
+        "text": "Vous attendez les réactions du public et de la communauté scientifique. Elles sont mitigées. Mais en attendant, d'autres commencent à développer leurs propres idées ou à vous devancer sur certains points. L'élan de la Linnean Society est perdu. Votre livre n'est jamais publié avec le même impact. Le temps est crucial pour une révolution.",
+        "ending": "failure",
+        "progress": 85
+    },
+
+    "collaborate_wallace_linnean": {
+        "title": "Voie Alternative : La Collaboration Ténue",
+        "year": "1858-1859 - Downe, Angleterre",
+        "text": "Vous tentez une collaboration plus étroite avec Wallace après la Linnean Society. C'est respectueux, mais les distances et vos méthodes de travail différentes rendent cela difficile. Wallace continue ses propres recherches et publications, tandis que vous rédigez 'L'Origine des Espèces'. La co-paternité reste symbolique, mais ne mène pas à une œuvre commune.",
+        "ending": "failure",
+        "progress": 85
+    },
+
+    "defense_of_theory": {
+        "title": "Chapitre 9 : Le Combat Public",
+        "year": "1860-1870 - Angleterre",
+        "text": "Vous participez activement au débat public, défendant votre théorie avec des arguments solides et des faits concrets. Vous affrontez les critiques religieuses et les objections scientifiques (comme l'argument du 'problème de l'âge de la Terre' de Kelvin). Vos réponses sont mesurées mais fermes.",
+        "formula": "Résistance aux critiques, force des arguments",
+        "choices": [
+            { "text": "A. Continuer à collecter de nouvelles preuves, notamment sur la descendance de l'homme", "next": "descent_of_man_research" },
+            { "text": "B. Développer la sélection sexuelle de manière plus approfondie", "next": "sexual_selection_detailed" },
+            { "C. Affiner les arguments sur la survie du plus apte", "next": "fittest_survival_refinement" },
+            { "D. Laisser la science s'imposer d'elle-même sans intervention directe", "next": "science_self_imposing" }
+        ],
+        "progress": 95
+    },
+
+    "huxley_hooker_defense": {
+        "title": "Recroisement : Les 'Bulldogs' de Darwin",
+        "year": "1860 - Oxford, Angleterre",
+        "text": "Vous laissez la tâche de la défense publique à vos fidèles alliés, Thomas Henry Huxley (le 'bulldog de Darwin') et Joseph Dalton Hooker. Lors du célèbre débat d'Oxford, Huxley affronte l'évêque Wilberforce, remportant une victoire éclatante. Leur éloquence et leur science convainquent une partie du public. Votre réputation est renforcée par leur soutien.",
+        "formula": "Les alliés mènent la bataille",
+        "choices": [
+            { "text": "A. Continuer à développer vos idées, notamment la descendance de l'homme", "next": "descent_of_man_research" },
+            { "text": "B. Vous consacrer à l'étude des plantes grimpantes", "next": "climbing_plants_study" },
+            { "C. Publier d'autres ouvrages pour détailler les mécanismes évolutifs", "next": "detailed_evolution_works" },
+            { "D. Vous retirer de la controverse, vous estimant satisfait", "next": "satisfied_retreat" }
+        ],
+        "progress": 95
+    },
+
+    "retreat_to_research": {
+        "title": "Impasse : Le Reclus Silencieux",
+        "year": "1860-1870 - Downe, Angleterre",
+        "text": "Fatigué par la controverse, vous vous retirez de tout débat public. Vos idées sont défendues par d'autres, mais votre silence est interprété comme un manque de conviction ou une incapacité à répondre aux objections. La théorie de l'évolution met plus de temps à être acceptée, et votre stature en tant que figure intellectuelle est amoindrie. La révolution est retardée par votre retrait.",
+        "ending": "failure",
+        "progress": 92
+    },
+
+    "revised_editions": {
+        "title": "Chapitre 9 : Les Éditions et la Réfutation",
+        "year": "1860-1872 - Downe, Angleterre",
+        "text": "Vous publiez plusieurs éditions révisées de 'L'Origine des Espèces', ajoutant de nouvelles preuves et répondant aux critiques (par exemple, sur l'âge de la Terre). Vous intégrez certaines des idées de Wallace et clarifiez vos arguments. Ce travail méthodique renforce la solidité de votre théorie au fil du temps.",
+        "formula": "Mise à jour et consolidation de la théorie",
+        "choices": [
+            { "text": "A. Écrire 'La Descendance de l'Homme' pour aborder l'évolution humaine", "next": "descent_of_man_research" },
+            { "text": "B. Approfondir les mécanismes de sélection sexuelle", "next": "sexual_selection_detailed" },
+            { "C. Revenir sur des études de détail, comme les plantes grimpantes ou les vers de terre", "next": "climbing_plants_study" },
+            { "D. Vous défendre contre les critiques sur la 'pangénèse'", "next": "pangenes_defense" }
+        ],
+        "progress": 95
+    },
+
+    "descent_of_man_research": {
+        "title": "Épilogue : La Descendance de l'Homme",
+        "year": "1871 - Downe, Angleterre",
+        "text": "En 1871, vous publiez 'La Descendance de l'Homme, et la Sélection relative au Sexe'. Vous y appliquez explicitement votre théorie à l'espèce humaine, affirmant que l'homme descend d'ancêtres communs avec les singes. Cette conclusion est encore plus controversée que 'L'Origine des Espèces', mais elle est la suite logique de vos travaux. Votre courage et votre rigueur scientifique ont changé la face de la biologie pour toujours. Vous avez révélé l'unité et la continuité du vivant.",
+        "formula": "L'Homme aussi, fruit de l'évolution",
+        "ending": "success",
+        "progress": 100
+    },
+
+    "sexual_selection_detailed": {
+        "title": "Recroisement : La Sélection Sexuelle Maîtrisée",
+        "year": "1871 - Downe, Angleterre",
+        "text": "Vous approfondissez le concept de sélection sexuelle, expliquant des traits apparemment désavantageux comme la queue du paon. Ce travail, détaillé dans 'La Descendance de l'Homme', renforce un aspect clé de votre théorie. C'est une contribution majeure à l'évolution de votre propre pensée.",
+        "formula": "Sélection sexuelle : un moteur d'évolution",
+        "choices": [
+            { "text": "A. Publier 'La Descendance de l'Homme' en incluant vos découvertes", "next": "descent_of_man_research" },
+            { "text": "B. Utiliser ces idées pour développer une théorie de la beauté dans la nature", "next": "beauty_theory" },
+            { "C. Chercher des exemples de sélection sexuelle chez l'homme", "next": "human_sexual_selection" },
+            { "D. Continuer à développer d'autres aspects de la sélection naturelle", "next": "fittest_survival_refinement" }
+        ],
+        "progress": 97
+    },
+
+    "fittest_survival_refinement": {
+        "title": "Recroisement : La Précision de la Survie",
+        "year": "1870 - Downe, Angleterre",
+        "text": "Vous affinez le concept de 'survie du plus apte' (une expression suggérée par Herbert Spencer), soulignant qu'il s'agit d'une survie différentielle et d'une reproduction différentielle. Vous clarifiez que 'apte' ne signifie pas 'fort', mais 'adapté à un environnement donné'.",
+        "formula": "Le plus apte = le mieux adapté à son environnement",
+        "choices": [
+            { "text": "A. Appliquer ce concept à l'évolution humaine", "next": "descent_of_man_research" },
+            { "B. Utiliser cette clarification pour répondre aux critiques", "next": "revised_editions" },
+            { "C. Développer de nouveaux exemples de cette survie différentielle", "next": "detailed_evolution_works" },
+            { "D. Vous concentrer sur d'autres aspects de la théorie", "next": "sexual_selection_detailed" }
+        ],
+        "progress": 97
+    },
+
+    "science_self_imposing": {
+        "title": "Impasse : Le Mutisme du Maître",
+        "year": "1870-1882 - Downe, Angleterre",
+        "text": "Vous décidez de laisser votre théorie se défendre par elle-même. Pendant un temps, la controverse ralentit, mais le manque de votre propre voix dans le débat public laisse la place à de nombreuses interprétations erronées, voire à des caricatures. D'autres théories (le néo-lamarckisme, l'orthogenèse) regagnent du terrain faute de votre intervention. Votre influence diminue après votre mort. Votre silence a affaibli votre révolution.",
+        "ending": "failure",
+        "progress": 98
+    },
+
+    "climbing_plants_study": {
+        "title": "Voie Alternative : Le Botaniste Dévoué",
+        "year": "1865-1875 - Downe, Angleterre",
+        "text": "Vous vous plongez dans des études détaillées sur les mouvements des plantes grimpantes, la fécondation des orchidées, ou les vers de terre. Ces travaux, bien que brillants, sont des digressions par rapport à la grande théorie de l'évolution. Vous démontrez votre génie d'observation, mais vous laissez le champ libre aux débats publics sur l'évolution.",
+        "ending": "failure",
+        "progress": 98
+    },
+
+    "detailed_evolution_works": {
+        "title": "Recroisement : L'Exploration des Conséquences",
+        "year": "1870-1880 - Downe, Angleterre",
+        "text": "Vous publiez une série d'ouvrages détaillant les mécanismes et les conséquences de la sélection naturelle : 'La Variation des Animaux et des Plantes sous l'effet de la Domestication', 'L'Expression des Émotions chez l'Homme et les Animaux'. Ces livres approfondissent divers aspects de votre théorie, prouvant sa robustesse et sa généralité.",
+        "formula": "Théorie appliquée et consolidée",
+        "choices": [
+            { "text": "A. Tirer la conclusion ultime sur l'évolution humaine", "next": "descent_of_man_research" },
+            { "text": "B. Renforcer vos arguments sur la sélection sexuelle", "next": "sexual_selection_detailed" },
+            { "text": "C. Répondre aux dernières grandes objections à la théorie", "next": "revised_editions" },
+            { "text": "D. Vous concentrer sur des études plus fines sur la variation", "next": "fittest_survival_refinement" }
+        ],
+        "progress": 97
+    },
+
+    "satisfied_retreat": {
+        "title": "Impasse : La Retraite Prématurée",
+        "year": "1860-1882 - Downe, Angleterre",
+        "text": "Satisfait du travail de vos alliés, vous vous retirez du débat public. Votre théorie, bien que lancée, fait face à de nombreuses résistances et malentendus. Sans votre voix pour la guider et l'affiner face aux objections, le processus d'acceptation est plus lent. D'autres figures émergent, diluant votre unique paternité de la révolution. Votre repos est doux, mais votre héritage est moins clair.",
+        "ending": "failure",
+        "progress": 98
+    },
+
+    "pangenes_defense": {
+        "title": "Impasse : L'Échec de la Pangénèse",
+        "year": "1875-1882 - Downe, Angleterre",
+        "text": "Vous passez du temps à défendre votre théorie de la 'pangénèse' contre des critiques de plus en plus pertinentes. Cette théorie de l'hérédité est une faiblesse de votre système, et le fait de vous y accrocher détourne votre énergie de la consolidation de la sélection naturelle elle-même. Les futures découvertes de Mendel rendront votre position intenable. Votre réputation souffre de cet attachement à une erreur.",
+        "ending": "failure",
+        "progress": 98
+    },
+
+    "beauty_theory": {
+        "title": "Voie Alternative : La Théorie de la Beauté",
+        "year": "1875 - Downe, Angleterre",
+        "text": "Vous développez une théorie de la beauté basée sur la sélection sexuelle, un sujet fascinant mais qui vous éloigne de la question centrale de l'évolution des espèces. Bien que ce travail soit intéressant, il n'a pas le même impact révolutionnaire que l'Origine des Espèces.",
+        "ending": "failure",
+        "progress": 99
+    },
+
+    "human_sexual_selection": {
+        "title": "Voie Alternative : La Sélection Sexuelle Humaine",
+        "year": "1875 - Downe, Angleterre",
+        "text": "Vous vous focalisez sur l'application de la sélection sexuelle à l'homme. Vos conclusions sur la diversité des cultures et des races sont complexes et parfois mal interprétées, mais vous ouvrez la voie à l'anthropologie évolutionniste. Cependant, en vous concentrant sur cette niche, vous ne consolidez pas la théorie générale de l'évolution avec la même force.",
+        "ending": "failure",
+        "progress": 99
+    }
+}
