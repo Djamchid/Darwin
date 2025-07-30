@@ -59,8 +59,8 @@
         "choices": [
             { "text": "A. Étudier l'élevage des animaux domestiques pour comprendre la variation sous sélection humaine", "next": "domestic_selection" },
             { "text": "B. Se consacrer à l'étude des cirripèdes pour explorer la variation au sein d'un groupe spécifique", "next": "cirripede_study" },
-            { "C. Lire des traités de géologie, notamment de Lyell, sur les changements lents et graduels", "next": "lyell_geology" },
-            { "D. Vous intéresser aux travaux sur les populations humaines et la lutte pour la vie", "next": "malthus_influence" }
+            { "text": "C. Lire des traités de géologie, notamment de Lyell, sur les changements lents et graduels", "next": "lyell_geology" },
+            { "text": "D. Vous intéresser aux travaux sur les populations humaines et la lutte pour la vie", "next": "malthus_influence" }
         ],
         "progress": 30
     },
@@ -89,8 +89,8 @@
         "choices": [
             { "text": "A. Examiner les variations au sein des populations naturelles, notamment les espèces 'jumelles'", "next": "natural_variation_study" },
             { "text": "B. Étudier l'anatomie comparée pour trouver des liens entre espèces différentes", "next": "comparative_anatomy" },
-            { "C. Chercher des indices de sélection dans la nature, par exemple chez les animaux de compagnie", "next": "domestic_selection" },
-            { "D. Lire les ouvrages économiques et sociologiques sur la croissance des populations", "next": "malthus_influence" }
+            { "text": "C. Chercher des indices de sélection dans la nature, par exemple chez les animaux de compagnie", "next": "domestic_selection" },
+            { "text": "D. Lire les ouvrages économiques et sociologiques sur la croissance des populations", "next": "malthus_influence" }
         ],
         "progress": 30
     },
@@ -103,8 +103,8 @@
         "choices": [
             { "text": "A. Appliquer le principe de Malthus sur la pression démographique à toutes les espèces", "next": "malthus_principle" },
             { "text": "B. Chercher des preuves de lutte pour la survie et de compétition dans la nature", "next": "struggle_for_existence" },
-            { "C. Développer une théorie de l'hérédité pour expliquer la transmission des traits", "next": "heredity_theory_attempt" },
-            { "D. Commencer à rédiger un long manuscrit sur vos idées, 'Natural Selection'", "next": "long_manuscript_draft" }
+            { "text": "C. Développer une théorie de l'hérédité pour expliquer la transmission des traits", "next": "heredity_theory_attempt" },
+            { "text": "D. Commencer à rédiger un long manuscrit sur vos idées, 'Natural Selection'", "next": "long_manuscript_draft" }
         ],
         "progress": 40
     },
@@ -126,7 +126,7 @@
             { "text": "A. Chercher des mécanismes biologiques pour un changement graduel", "next": "malthus_influence" },
             { "text": "B. Intégrer cette temporalité immense à votre concept de variation", "next": "natural_selection_genesis" },
             { "text": "C. Développer une chronologie géologique précise", "next": "geological_chronology" },
-            { "D. Publier un livre sur l'uniformitarisme en biologie", "next": "uniformitarianism_biology" }
+            { "text": "D. Publier un livre sur l'uniformitarisme en biologie", "next": "uniformitarianism_biology" }
         ],
         "progress": 35
     },
@@ -139,8 +139,8 @@
         "choices": [
             { "text": "A. Combiner cette idée avec la sélection artificielle pour postuler la sélection naturelle", "next": "natural_selection_genesis" },
             { "text": "B. Se concentrer sur les implications sociales de Malthus plutôt que biologiques", "next": "social_malthusianism" },
-            { "C. Chercher des exceptions à la lutte pour l'existence dans la nature", "next": "no_struggle_exceptions" },
-            { "D. Vous inquiéter des implications morales d'une telle 'lutte'", "next": "moral_dilemma" }
+            { "text": "C. Chercher des exceptions à la lutte pour l'existence dans la nature", "next": "no_struggle_exceptions" },
+            { "text": "D. Vous inquiéter des implications morales d'une telle 'lutte'", "next": "moral_dilemma" }
         ],
         "progress": 40
     },
@@ -153,8 +153,8 @@
         "choices": [
             { "text": "A. Combiner vos observations avec l'idée de la 'lutte pour l'existence' de Malthus", "next": "malthus_principle" },
             { "text": "B. Étudier les mécanismes d'hérédité pour comprendre comment les traits sont transmis", "next": "heredity_theory_attempt" },
-            { "C. Chercher des exemples de 'transmutation' directe d'une espèce à l'autre", "next": "direct_transmutation_search" },
-            { "D. Commencer à écrire vos idées, même sans un mécanisme complet", "next": "long_manuscript_draft" }
+            { "text": "C. Chercher des exemples de 'transmutation' directe d'une espèce à l'autre", "next": "direct_transmutation_search" },
+            { "text": "D. Commencer à écrire vos idées, même sans un mécanisme complet", "next": "long_manuscript_draft" }
         ],
         "progress": 40
     },
@@ -176,7 +176,7 @@
             { "text": "A. Garder l'idée secrète et la développer pendant des années", "next": "secret_development" },
             { "text": "B. Publier immédiatement une courte esquisse de la théorie", "next": "early_publication" },
             { "text": "C. Chercher d'autres preuves pour renforcer la théorie avant toute annonce", "next": "proof_gathering" },
-            { "D. Collaborer avec d'autres scientifiques partageant des idées similaires", "next": "wallace_correspondence" }
+            { "text": "D. Collaborer avec d'autres scientifiques partageant des idées similaires", "next": "wallace_correspondence" }
         ],
         "progress": 50
     },
@@ -189,8 +189,8 @@
         "choices": [
             { "text": "A. Développer la théorie de la sélection naturelle et ses mécanismes", "next": "natural_selection_genesis" },
             { "text": "B. Se concentrer sur la 'sélection sexuelle' comme cas particulier", "next": "sexual_selection_focus" },
-            { "C. Chercher des preuves de 'perfect adaptation' pour contredire votre idée", "next": "perfect_adaptation_search" },
-            { "D. Commencer à rédiger un ouvrage détaillé sur l'origine des espèces", "next": "long_manuscript_draft" }
+            { "text": "C. Chercher des preuves de 'perfect adaptation' pour contredire votre idée", "next": "perfect_adaptation_search" },
+            { "text": "D. Commencer à rédiger un ouvrage détaillé sur l'origine des espèces", "next": "long_manuscript_draft" }
         ],
         "progress": 48
     },
@@ -212,7 +212,7 @@
             { "text": "A. Continuer à développer le manuscrit en secret, le rendre parfait", "next": "secret_development" },
             { "text": "B. Vous sentir poussé à publier une version abrégée en urgence", "next": "urgent_publication" },
             { "text": "C. Demander l'avis d'amis proches et de collègues", "next": "peer_review_request" },
-            { "D. Attendre le moment opportun, quitte à être devancé", "next": "wait_and_see" }
+            { "text": "D. Attendre le moment opportun, quitte à être devancé", "next": "wait_and_see" }
         ],
         "progress": 55
     },
@@ -266,7 +266,7 @@
             { "text": "A. Commencer à accumuler des preuves massives et détaillées avant de publier quoi que ce soit", "next": "secret_development" },
             { "text": "B. Écrire une courte esquisse pour établir la priorité", "next": "early_publication" },
             { "text": "C. En discuter discrètement avec vos plus proches confidents", "next": "peer_review_request" },
-            { "D. Vous attendre à être critiqué et préparer des contre-arguments", "next": "proof_gathering" }
+            { "text": "D. Vous attendre à être critiqué et préparer des contre-arguments", "next": "proof_gathering" }
         ],
         "progress": 50
     },
@@ -303,8 +303,8 @@
         "choices": [
             { "text": "A. Un courrier d'Alfred Russel Wallace vous parvient, proposant une idée similaire !", "next": "wallace_letter" },
             { "text": "B. Un ami proche vous exhorte à publier avant qu'il ne soit trop tard", "next": "lyell_hooker_intervention" },
-            { "C. Vous décidez de publier une version très courte de votre théorie pour tester les réactions", "next": "early_publication" },
-            { "D. Vous continuez à peaufiner, convaincu que la perfection est la clé", "next": "over_perfection_failure" }
+            { "text": "C. Vous décidez de publier une version très courte de votre théorie pour tester les réactions", "next": "early_publication" },
+            { "text": "D. Vous continuez à peaufiner, convaincu que la perfection est la clé", "next": "over_perfection_failure" }
         ],
         "progress": 60
     },
@@ -325,8 +325,8 @@
         "choices": [
             { "text": "A. Vous recevez un manuscrit d'Alfred Russel Wallace, décrivant la même idée !", "next": "wallace_letter" },
             { "text": "B. Vos amis Lyell et Hooker vous pressent de publier au plus vite", "next": "lyell_hooker_intervention" },
-            { "C. Vous êtes prêt à publier votre grand ouvrage, 'L'Origine des Espèces'", "next": "origin_publication_ready" },
-            { "D. Vous décidez d'attendre encore quelques années pour consolider les dernières sections", "next": "wait_and_see" }
+            { "text": "C. Vous êtes prêt à publier votre grand ouvrage, 'L'Origine des Espèces'", "next": "origin_publication_ready" },
+            { "text": "D. Vous décidez d'attendre encore quelques années pour consolider les dernières sections", "next": "wait_and_see" }
         ],
         "progress": 65
     },
@@ -339,8 +339,8 @@
         "choices": [
             { "text": "A. Publier immédiatement l'essai de Wallace et le vôtre en même temps", "next": "linnean_society" },
             { "text": "B. Essayer de publier le vôtre avant lui pour établir la priorité", "next": "hasty_publication_failure" },
-            { "C. Ignorer la lettre et continuer votre travail tranquillement", "next": "ignoring_wallace" },
-            { "D. Entrer en contact avec Wallace pour discuter de cette incroyable coïncidence", "next": "wallace_collaboration_attempt" }
+            { "text": "C. Ignorer la lettre et continuer votre travail tranquillement", "next": "ignoring_wallace" },
+            { "text": "D. Entrer en contact avec Wallace pour discuter de cette incroyable coïncidence", "next": "wallace_collaboration_attempt" }
         ],
         "progress": 70
     },
@@ -353,8 +353,8 @@
         "choices": [
             { "text": "A. Accélérer la rédaction de votre grand ouvrage", "next": "proof_gathering" },
             { "text": "B. Attendre le moment parfait pour la publication", "next": "wait_and_see" },
-            { "C. Vous recevez une lettre d'Alfred Russel Wallace avec la même idée !", "next": "wallace_letter" },
-            { "D. Continuer à développer le manuscrit en secret", "next": "secret_development" }
+            { "text": "C. Vous recevez une lettre d'Alfred Russel Wallace avec la même idée !", "next": "wallace_letter" },
+            { "text": "D. Continuer à développer le manuscrit en secret", "next": "secret_development" }
         ],
         "progress": 60
     },
@@ -390,7 +390,7 @@
             { "text": "A. Contacter Lyell et Hooker pour leur demander conseil", "next": "lyell_hooker_intervention" },
             { "text": "B. Publier votre propre travail immédiatement pour la priorité", "next": "hasty_publication_failure" },
             { "text": "C. Proposer une collaboration formelle à Wallace", "next": "wallace_collaboration_attempt" },
-            { "D. Vous retirez de la scène, laissant Wallace publier seul", "next": "abdication_failure" }
+            { "text": "D. Vous retirez de la scène, laissant Wallace publier seul", "next": "abdication_failure" }
         ],
         "progress": 70
     },
@@ -436,7 +436,7 @@
             { "text": "A. Publier immédiatement 'L'Origine des Espèces' dans une version abrégée mais complète", "next": "origin_publication_ready" },
             { "text": "B. Continuer à développer votre grand ouvrage, malgré la co-publication", "next": "secret_development_continued" },
             { "text": "C. Attendre les réactions de la communauté scientifique avant d'aller plus loin", "next": "wait_for_reactions" },
-            { "D. Collaborer plus étroitement avec Wallace", "next": "collaborate_wallace_linnean" }
+            { "text": "D. Collaborer plus étroitement avec Wallace", "next": "collaborate_wallace_linnean" }
         ],
         "progress": 80
     },
@@ -481,8 +481,8 @@
         "choices": [
             { "text": "A. Défendre votre théorie avec fermeté face aux critiques scientifiques et religieuses", "next": "defense_of_theory" },
             { "text": "B. Laisser vos 'bulldogs' comme Huxley et Hooker mener le combat public", "next": "huxley_hooker_defense" },
-            { "C. Vous retirer du débat public pour continuer vos recherches", "next": "retreat_to_research" },
-            { "D. Publier des éditions révisées pour répondre aux objections", "next": "revised_editions" }
+            { "text": "C. Vous retirer du débat public pour continuer vos recherches", "next": "retreat_to_research" },
+            { "text": "D. Publier des éditions révisées pour répondre aux objections", "next": "revised_editions" }
         ],
         "progress": 90
     },
@@ -519,8 +519,8 @@
         "choices": [
             { "text": "A. Continuer à collecter de nouvelles preuves, notamment sur la descendance de l'homme", "next": "descent_of_man_research" },
             { "text": "B. Développer la sélection sexuelle de manière plus approfondie", "next": "sexual_selection_detailed" },
-            { "C. Affiner les arguments sur la survie du plus apte", "next": "fittest_survival_refinement" },
-            { "D. Laisser la science s'imposer d'elle-même sans intervention directe", "next": "science_self_imposing" }
+            { "text": "C. Affiner les arguments sur la survie du plus apte", "next": "fittest_survival_refinement" },
+            { "text": "D. Laisser la science s'imposer d'elle-même sans intervention directe", "next": "science_self_imposing" }
         ],
         "progress": 95
     },
@@ -533,8 +533,8 @@
         "choices": [
             { "text": "A. Continuer à développer vos idées, notamment la descendance de l'homme", "next": "descent_of_man_research" },
             { "text": "B. Vous consacrer à l'étude des plantes grimpantes", "next": "climbing_plants_study" },
-            { "C. Publier d'autres ouvrages pour détailler les mécanismes évolutifs", "next": "detailed_evolution_works" },
-            { "D. Vous retirer de la controverse, vous estimant satisfait", "next": "satisfied_retreat" }
+            { "text": "C. Publier d'autres ouvrages pour détailler les mécanismes évolutifs", "next": "detailed_evolution_works" },
+            { "text": "D. Vous retirer de la controverse, vous estimant satisfait", "next": "satisfied_retreat" }
         ],
         "progress": 95
     },
@@ -555,8 +555,8 @@
         "choices": [
             { "text": "A. Écrire 'La Descendance de l'Homme' pour aborder l'évolution humaine", "next": "descent_of_man_research" },
             { "text": "B. Approfondir les mécanismes de sélection sexuelle", "next": "sexual_selection_detailed" },
-            { "C. Revenir sur des études de détail, comme les plantes grimpantes ou les vers de terre", "next": "climbing_plants_study" },
-            { "D. Vous défendre contre les critiques sur la 'pangénèse'", "next": "pangenes_defense" }
+            { "text": "C. Revenir sur des études de détail, comme les plantes grimpantes ou les vers de terre", "next": "climbing_plants_study" },
+            { "text": "D. Vous défendre contre les critiques sur la 'pangénèse'", "next": "pangenes_defense" }
         ],
         "progress": 95
     },
@@ -578,8 +578,8 @@
         "choices": [
             { "text": "A. Publier 'La Descendance de l'Homme' en incluant vos découvertes", "next": "descent_of_man_research" },
             { "text": "B. Utiliser ces idées pour développer une théorie de la beauté dans la nature", "next": "beauty_theory" },
-            { "C. Chercher des exemples de sélection sexuelle chez l'homme", "next": "human_sexual_selection" },
-            { "D. Continuer à développer d'autres aspects de la sélection naturelle", "next": "fittest_survival_refinement" }
+            { "text": "C. Chercher des exemples de sélection sexuelle chez l'homme", "next": "human_sexual_selection" },
+            { "text": "D. Continuer à développer d'autres aspects de la sélection naturelle", "next": "fittest_survival_refinement" }
         ],
         "progress": 97
     },
@@ -592,8 +592,8 @@
         "choices": [
             { "text": "A. Appliquer ce concept à l'évolution humaine", "next": "descent_of_man_research" },
             { "B. Utiliser cette clarification pour répondre aux critiques", "next": "revised_editions" },
-            { "C. Développer de nouveaux exemples de cette survie différentielle", "next": "detailed_evolution_works" },
-            { "D. Vous concentrer sur d'autres aspects de la théorie", "next": "sexual_selection_detailed" }
+            { "text": "C. Développer de nouveaux exemples de cette survie différentielle", "next": "detailed_evolution_works" },
+            { "text": "D. Vous concentrer sur d'autres aspects de la théorie", "next": "sexual_selection_detailed" }
         ],
         "progress": 97
     },
