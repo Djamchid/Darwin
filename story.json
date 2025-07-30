@@ -591,7 +591,7 @@
         "formula": "Le plus apte = le mieux adapté à son environnement",
         "choices": [
             { "text": "A. Appliquer ce concept à l'évolution humaine", "next": "descent_of_man_research" },
-            { "B. Utiliser cette clarification pour répondre aux critiques", "next": "revised_editions" },
+            { "text": "B. Utiliser cette clarification pour répondre aux critiques", "next": "revised_editions" },
             { "text": "C. Développer de nouveaux exemples de cette survie différentielle", "next": "detailed_evolution_works" },
             { "text": "D. Vous concentrer sur d'autres aspects de la théorie", "next": "sexual_selection_detailed" }
         ],
